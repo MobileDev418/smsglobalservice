@@ -1,0 +1,95 @@
+/* CSS Document */
+
+
+
+
+
+@media screen and (max-width:1200px){
+	.service-box .service-text h2{ font-size:15px !important;}
+	.services-block{padding: 270px 85px 35px;}
+	
+	#content-section .contact-box .form-group input, #content-section .contact-box .form-group textarea{ width:75%;}
+	#content-section .contact-box .form-group label{ width:25%;}
+	#content-section .contact-box .contact-info p{ margin-bottom:40px;}
+	#banner-section .banner-inner {
+		position:relative;
+	}
+}
+
+
+@media screen and (max-width:992px){
+#nav-section .navi ul {
+    text-align: left;
+}
+#nav-section .navi ul li a{padding: 10px 12px;}
+#content-section .container{ width:100%;}
+
+.footer-top .footer-nav{ text-align:center; margin-bottom:30px;}
+.footer-top .footer-social{ margin-bottom:30px;}
+.footer-top .footer-right{ text-align:center;}
+
+#content-section .content-box .form-left{ margin-bottom:30px;}
+
+#content-section .contact-box .form-group input, #content-section .contact-box .form-group textarea{ width:70%; float:left;}
+#content-section .contact-box .form-group label{ width:30%; float:right;}
+}
+
+
+@media screen and (max-width:801px){
+
+}
+
+@media screen and (max-width:768px){
+	
+	.services-block{ background:none; padding:0; margin-top:20px;}
+	.services-block .service-box{ position:inherit; margin-bottom:15px; left:inherit; right:inherit;}
+	.service-box:hover .service-text ul{ margin-bottom:0 !important;}
+	#header-section .header-left a{
+		display:inline-block;
+		text-align:center;
+	}
+	#header-section .header-left {
+		text-align: center;
+	}
+	
+}
+
+
+@media screen and (max-width:767px){
+	
+#content-section .content-box h1 {
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+#content-section .content-box h2{ font-size:15px; font-family:"Cambria Math";}
+#content-section .content-box h3{ font-size:12px; font-family:"Cambria Math";}
+.footer-top p{ font-size:12px;}
+#content-section .content-box {
+    padding: 35px;
+}
+#content-section .contact-box .contact-info p{ font-size:14px;}
+#content-section .contact-box .btn-group button{ height:40px; font-size:14px;}
+#content-section .contact-box .contact-info p {
+    line-height: 1.3em;
+    margin-bottom: 15px;
+}
+#content-section .contact-box .form-group label{
+	position:relative;
+}
+#content-section .contact-box .form-group input, #content-section .contact-box .form-group textarea{ width:70%; float:left;}
+#content-section .contact-box .form-group.msgg label{ padding:39px 14px;}
+#content-section .contact-box .form-group label{ width:30%; float:right;}
+
+}
+
+
+@media screen and (max-width:481px){
+#content-section .contact-box .form-group input, #content-section .contact-box .form-group textarea{ width:60%; float:left;}
+#content-section .contact-box .form-group.msgg label{ padding:39px 14px;}
+#content-section .contact-box .form-group label{ width:40%; float:right;}
+}
+
+
+@media screen and (max-width:361px){
+
+}
