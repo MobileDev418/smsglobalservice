@@ -119,7 +119,7 @@ ul {
 }
 #content-section
 		{ position:relative; z-index:10;}
-		#content-section .content-box{ background:#fff; overflow:hidden; padding:75px 35px; box-shadow:0 -4px 4px #dcdcdc;}
+		#content-section .content-box{ background:#fff; overflow:hidden; padding:30px 35px; box-shadow:0 -4px 4px #dcdcdc;}
 		#content-section .content-box h1{ font-size:30px; margin:0; margin-bottom:35px; color:#ec1c24; font-family:"Cambria Math";}
 		#content-section .content-box h2{ font-size:25px; font-family:"Cambria Math";}
 		#content-section .content-box h3{ font-size:20px; font-family:"Cambria Math";}
