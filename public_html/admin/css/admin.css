@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tbhead
+{
+	
+}
+
+.opmsg
+{
+    color:#CC0000;
+	text-align:right;
+	font-weight:150%;
+}
+.smalllink
+{
+	color:#330066;
+	text-align:center;
+	font-size:10px;
+}
+
+.viewtable
+{
+
+}
+
+.topheading
+{
+	background:#D1E2F2;
+	font-family:Verdana; 
+	font-weight:200%; 
+	color:#000000;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+
+}
+.tr1
+{
+	background:#D8E6F4;
+	font-family:Verdana; 
+	font-size:11px;
+}
+.tr2
+{
+	background:#D1E2F2;
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+tr
+{
+	font-family:Verdana; 
+	font-size:11px;
+}
+
+a 
+	{
+		color:black;
+		text-decoration:none;
+	}
+
+a:hover 
+	{
+		color:#007979;
+		text-decoration:none;
+	}
+	
+a:active
+	{
+		color:#007979;
+	}
+h2
+{
+	color:#330033;
+	font-size:16px;
+}
+
+.submit
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:#6699CC;
+	background:#D1E2F2
+}
+.textbox
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:#999999;
+	height:20px;
+	width:140px;
+}
+
+.choics_list
+{
+	font-size:12px;
+	width:143px;
+	
+}
+.invalid {
+	color: #FF0000;
+	font-size:9px;
+	visibility:hidden;
+}
+
+
+.desmessage
+{
+	width:140px;
+}
+
+.srchtable
+{
+	font-family:Verdana; 
+	font-size:11px;
+}
+body
+{
+	margin-top:25px;
+	margin-bottom:0px;
+}
+#admin_table
+{
+	border:#CCCCCC;
+	border-width:1px;
+	border-style:solid;
+	width:578px;
+	height:510px;
+	padding-bottom:20px;
+	
+}
+.crown_head
+{
+	font-size:26px;
+	background:#CCCCCC;
+	height:56px;
+	padding-top:8px;
+	text-align:center;
+
+}
+.error
+{
+	background:#FFFF00;
+	border:thin;
+	border-style:solid;
+	border-color:#CCCCCC;
+	height:15px;
+	color:#FF0000;
+}
+.td1
+{
+	background:#DADADA;
+	font-family:Verdana; 
+	font-size:11px;
+}
+.td2
+{
+	background:#E8E8E8;
+	font-family:Verdana; 
+	font-size:11px;
+}
+.balance
+{
+	color:#990000;
+}
+
+.admin_table
+{
+	border-width:1px; 
+	border-color:#A3B2CC; 
+	border-style:solid;
+	background:#E7F0F8;
+}
