@@ -1,0 +1,60 @@
+/**
+ * @package   Kinetic Template - RocketTheme
+ * @version   1.5.1 February 4, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+/* Frontpage Content */
+.demo-img .rt-image {padding: 5px;margin-right: 10px;float: left;}
+.demo-lb-img {border: 3px solid #eee;}
+.feb10-home #rt-feature {padding-bottom: 0;}
+.feb10-home #rt-feature .ribbon1 .module-inner {display: none;}
+.feb10-home #rt-feature .rt-block {margin-bottom: 0;}
+.feb10-home #rt-main-surround .menu em {display: none;}
+.feb10-home h4 {color: #999;}
+.feb10-home .rt-joomla .rt-article {margin-bottom: 20px;}
+.demo-title {color: #999;font-size: 150%;display: block;font-weight: bold;margin-bottom: 5px;margin-top: 10px;}
+.demo-mb {border-bottom: 1px solid #eee;margin-bottom: 15px;}
+.mb-image {border: 4px solid #eee;float: left;margin-right: 10px;}
+.demo-mb a {font-weight: bold;}
+.demo-author {margin-top: 10px;text-align: right;display: block;}
+
+/* Gantry */
+.gantry-img .rt-image {padding: 3px;}
+.gantry-logo {float: right;}
+
+/* Extensions */
+.rt-ext-col1 {float: left;width: 47%;}
+.rt-ext-col2 {float: right;width: 47%;}
+.rt-ext-block {margin-bottom: 30px;overflow: hidden;}
+.rt-ext-img {float: left;margin-right: 20px;margin-bottom: 25px;}
+.rt-ext-divider {height: 10px;display: block;}
+.rt-ext-links {text-align: right;display: block;}
+
+/* Style Variations */
+.demo-sv-title {width: 206px;float: left;margin-right: 10px;padding-left: 3px;}
+.demo-sv-title h2, .demo-sv-title2 h3 {text-align: center;}
+.demo-img .demo-sv-img {float: none;}
+.demo-img .demo-sv-img2 {float: none;padding: 1px;margin-right: 3px;}
+.demo-sv-title2 {width: 128px;float: left;margin-right: 5px;padding-left: 2px;}
+
+/* Tutorials */
+.demo-tut-list {float: left;width: 40%;}
+.demo-tut-video-img {margin-right: 15px;width: 123px;float: left;}
+.demo-tut-divider {width: 15px;}
+
+/* RTL Stuff */
+.rtl .demo-img .rt-image {margin-left: 10px;margin-right: 0;float: right;}
+.rtl .mb-image {float: right;margin-right: 0;margin-left: 10px;}
+.rtl .demo-author {text-align: left;}
+.rtl .gantry-logo {float: left;}
+.rtl .rt-ext-col1 {float: right;}
+.rtl .rt-ext-col2 {float: left;}
+.rtl .rt-ext-img {float: right;margin-right: 0;margin-left: 20px;}
+.rtl .rt-ext-links {text-align: left;}
+.rtl .demo-sv-title {float: right;margin-right: 0;margin-left: 10px;padding-left: 0;padding-right: 3px;}
+.rtl .demo-tut-list {float: right;}
+.rtl .demo-tut-video-img {margin-right: 0;margin-left: 15px;float: right;}
+.rtl .demo-img .demo-sv-img2 {margin-left: 3px;margin-right: 3px;}
+.rtl .demo-sv-title2 {float: right;margin-left: 5px;margin-right: 0;padding-right: 2px;padding-left: 0;}

@@ -1,0 +1,19 @@
+/**
+ * @package   Kinetic Template - RocketTheme
+ * @version   1.5.1 February 4, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+.menu-type-splitmenu #rt-header li.active a {background: #A50417;color: #fff;}
+.menu-type-splitmenu #rt-submenu li .item {color: #333;}
+
+.menu-type-suckerfishmenu #rt-header .menutop {padding: 0 10px;}
+.menu-type-suckerfishmenu #rt-header li.sfHover .item {color: #fff;}
+.menu-type-suckerfishmenu #rt-header li.sfHover .item, .menu-type-suckerfishmenu #rt-header li#current .item {background: #A50417;;border: none;}
+.menu-type-suckerfishmenu #rt-header li.sfHover .item span, .menu-type-suckerfishmenu #rt-header li#current .item span {border: none;}
+.menu-type-suckerfishmenu #rt-header li#current .item {color: #fff;}
+.menu-type-suckerfishmenu #rt-header li ul {background: #A50417;}
+.menu-type-suckerfishmenu #rt-header ul ul li .item:hover {background: #51070F;}
+.menu-type-suckerfishmenu #rt-header ul ul li .daddy:hover {background: #51070F;}
+.menu-type-suckerfishmenu #rt-header li.sfHover li .item {color: #fff;}

@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+#reg_form
+{
+	width:100%;
+}
+#reg_form td
+{
+	padding:2px;
+	vertical-align:middle;
+}
+#reg_form input[type="text"], #reg_form input[type="password"], #cus_group input[type="text"], #c_form input[type="text"], #changeprofile input[type="text"], #sign input[type="password"], #contactusform input[type="text"], #contactusform textarea
+{
+	width:200px;
+	color:#666666;
+	border:1px solid #CCC;
+}
+#contactusform textarea 
+{
+	width:350px;
+	height:120px;
+}
+#reg_form select, #c_form select, #changeprofile select
+{
+	width:205px;
+	color:#666666;
+}
+#reg_form .text
+{
+	border:1px solid #CCC;
+}
+
+#reg_form .textfocused
+{
+	border-top:1px solid #d54410;
+	border-left: 1px solid #d54410;
+	border-right:1px solid #3f7cbe;
+	border-bottom:1px solid #3f7cbe;
+}
+#reg_form .red
+{
+	color:#F00;
+}
+#reg_form .invalid
+{
+	color:#FF0000;
+	visibility:hidden;
+}
+div.formdiv
+{
+	/*border:1px solid #EEE;*/
+	padding:20px;
+}
+
+.grid
+{
+	border:1px solid #999;
+}
+.heading
+{
+	
+	background:#CCC;
+}
+.heading td
+{
+	padding:6px;
+	font-weight:bold;
+	font-size:110%;
+}
+.row1 td
+{
+	background:#CCC;
+	padding:4px;
+}
+.row2 td
+{
+	background:#eee;
+	padding:4px;
+}
+.formbutton
+{
+	background:#F7F7F7 url(../images/backbutton.png);
+	border:1px solid #999;
+	color:#464646;
+	padding:3px 18px;
+	font-weight:bold;
+}
+div.actionform
+{
+	padding:10px; margin:auto; text-align:center; border:1px solid #CCC; margin:20px 0px;
+	background:#eee;
+}
+div.actionform .formbutton
+{
+	margin:0px 5px;
+}
+.invalid
+{
+	visibility:hidden;
+}
+.red
+{
+	color:#F00;
+}
+div.formborder
+{
+	border:1px solid #CCC; padding:20px 0px;
+	text-align:center;
+}
+div.formborder table
+{
+	width:100%;
+}
+div.formborder table td
+{
+	padding:2px;
+}
+#smsform input[type="text"]
+{
+	width:120px;
+	color:#666666;
+	border:1px solid #CCC;
+}
+#smsform select
+{
+	width:125px;
+	color:#666666;
+	border:1px solid #CCC;
+}
+#smsform  textarea
+{
+	width:350px;
+	height:120px;
+	color:#666666;
+	border:1px solid #CCC;
+	
+}
+
+#historyform select
+{
+	border:1px solid #CCC;
+}
+/*These styles are for page smsoptions for single sms, bulk sms, group sms, contact sms*/
+.smsoptions
+{
+	margin-right:20px;
+	padding:40px;
+	background-image:url(../images/smsoptions.jpg);
+	background-repeat:no-repeat;
+	background-position:right center;
+	
+}
+.smsoptions  div
+{
+	margin-bottom:25px;
+}
+.smsoptions  span
+{
+	color:#FFF;
+}
+.smsoptions a
+{
+	background-image:url(../images/circle.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	height:40px; padding-left:12px; padding-top:5px; padding-bottom:7px; font-size:25px;
+}
+.smsoptions a:hover
+{
+	color:#B1231C;
+	background-position:left bottom;
+	
+}
+/*--------------------------------------*/
+#rec_password input[type="text"]
+{
+	border:1px solid #CCC;
+	color:#666666;
+	width:150px;
+}
+.rec_pass
+{
+	padding:60px 40px;
+	background-image:url(../images/Key.jpg);
+	background-repeat:no-repeat;
+	background-position:right top;
+}

@@ -1,0 +1,25 @@
+/**
+ * @package   Kinetic Template - RocketTheme
+ * @version   1.5.1 February 4, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+.module-title {position: relative;zoom: 1;}
+.rokchecks.roksubscribe {display:inline-block;}
+
+/*.menutop li, .menutop li.active:hover {margin: 0 0 0 8px;}
+.menutop li .item, .menutop li.active:hover .item {margin: 0 0 0 -8px;}
+.menutop li.active:hover {margin: 0 -1px 0 9px;}*/
+
+
+#rt-header .fusion-pill-l {margin:0 0 0 -6px;}
+#rt-showcase .fusion-pill-l {margin:0 0 0 0px;}
+
+/* RTL */
+body.rtl .menutop {direction: ltr;}
+body.rtl .menutop li, body.rtl .menutop li.active:hover {left:-1px;}
+body.rtl #rt-showcase .feature-desc {direction: ltr;text-align: right;float: right;}
+body.rtl .rt-article-content p, body.rtl ol, body.rtl p, body.rtl blockquote {direction: ltr;text-align: right;}
+body.rtl .fusion-submenu-wrapper li {text-align: right;}
