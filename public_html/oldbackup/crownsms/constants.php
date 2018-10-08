@@ -1,0 +1,19 @@
+<?php
+	session_start();
+	$menu1='home.jpg';
+	$menu2='aboutus.jpg';
+	$menu3='services.jpg';
+	$menu4='pricing.jpg';
+	$menu5='faq.jpg';
+	$menu6='order.jpg';
+	$menu7='contact.jpg';
+	$menu8='login.jpg';
+	$menu9='register.jpg';
+	$menu10='send_sms.jpg';
+	$menu11='contacts.jpg';
+	$menu12='groups.jpg';
+	$menu13='balance.jpg';
+	$menu14='history.jpg';
+	$menu15='profile.jpg';
+	$menu16='smsinq.jpg';
+?>

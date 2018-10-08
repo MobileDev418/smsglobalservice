@@ -1,0 +1,64 @@
+[22-Jul-2009 06:02:34] PHP Warning:  include_once(admin/ez_sql.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/datingan/public_html/crownsms/country.php on line 2
+[22-Jul-2009 06:02:34] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'admin/ez_sql.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/datingan/public_html/crownsms/country.php on line 2
+[22-Jul-2009 06:02:34] PHP Fatal error:  Call to a member function get_results() on a non-object in /home/datingan/public_html/crownsms/country.php on line 3
+[22-Jul-2009 06:40:25] PHP Warning:  include_once(admin/ez_sql.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/datingan/public_html/crownsms/country.php on line 2
+[22-Jul-2009 06:40:25] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'admin/ez_sql.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/datingan/public_html/crownsms/country.php on line 2
+[22-Jul-2009 06:40:25] PHP Fatal error:  Call to a member function get_results() on a non-object in /home/datingan/public_html/crownsms/country.php on line 3
+[22-Jul-2009 06:51:44] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/datingan/public_html/crownsms/admin/ez_sql.php on line 95
+[05-Oct-2009 06:03:11] PHP Warning:  include(fileImporter.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/datingan/public_html/crownsms/bulkdata.php on line 8
+[05-Oct-2009 06:03:11] PHP Warning:  include(fileImporter.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/datingan/public_html/crownsms/bulkdata.php on line 8
+[05-Oct-2009 06:03:11] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'fileImporter.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/datingan/public_html/crownsms/bulkdata.php on line 8
+[05-Oct-2009 06:03:46] PHP Warning:  include(fileImporter.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/datingan/public_html/crownsms/bulkdata.php on line 4
+[05-Oct-2009 06:03:46] PHP Warning:  include(fileImporter.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/datingan/public_html/crownsms/bulkdata.php on line 4
+[05-Oct-2009 06:03:46] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'fileImporter.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/datingan/public_html/crownsms/bulkdata.php on line 4
+[05-Oct-2009 06:04:59] PHP Warning:  copy(data_export_temp/phones.txt) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory in /home/datingan/public_html/crownsms/fileImporter.class.php on line 73
+[05-Oct-2009 06:09:50] PHP Warning:  POST Content-Length of 16122245 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[05-Oct-2009 06:27:24] PHP Parse error:  syntax error, unexpected '}' in /home/datingan/public_html/crownsms/bulkdata.php on line 22
+[05-Oct-2009 06:37:34] PHP Warning:  copy(bulk_export/) [<a href='function.copy'>function.copy</a>]: failed to open stream: Is a directory in /home/datingan/public_html/crownsms/fileImporter.class.php on line 73
+[05-Oct-2009 06:38:54] PHP Warning:  copy(bulk_export/) [<a href='function.copy'>function.copy</a>]: failed to open stream: Is a directory in /home/datingan/public_html/crownsms/fileImporter.class.php on line 73
+[05-Oct-2009 22:54:23] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/datingan/public_html/crownsms/bulkdata.php on line 55
+[05-Oct-2009 23:31:48] PHP Parse error:  syntax error, unexpected '}' in /home/datingan/public_html/crownsms/send_bkmessge.php on line 40
+[05-Oct-2009 23:44:17] PHP Parse error:  syntax error, unexpected '}' in /home/datingan/public_html/crownsms/send_bkmessge.php on line 37
+[05-Oct-2009 23:45:48] PHP Parse error:  syntax error, unexpected '}' in /home/datingan/public_html/crownsms/send_bkmessge.php on line 37
+[05-Oct-2009 23:50:29] PHP Parse error:  syntax error, unexpected ']' in /home/datingan/public_html/crownsms/sms.class.php on line 36
+[05-Oct-2009 23:51:19] PHP Parse error:  syntax error, unexpected ']' in /home/datingan/public_html/crownsms/sms.class.php on line 36
+[05-Oct-2009 23:54:44] PHP Warning:  ereg_replace() [<a href='function.ereg-replace'>function.ereg-replace</a>]: REG_EMPTY in /home/datingan/public_html/crownsms/send_bkmessge.php on line 29
+[05-Oct-2009 23:57:18] PHP Warning:  ereg_replace() [<a href='function.ereg-replace'>function.ereg-replace</a>]: REG_EMPTY in /home/datingan/public_html/crownsms/send_bkmessge.php on line 29
+[05-Oct-2009 23:59:00] PHP Warning:  ereg_replace() [<a href='function.ereg-replace'>function.ereg-replace</a>]: REG_EMPTY in /home/datingan/public_html/crownsms/send_bkmessge.php on line 29
+[06-Oct-2009 00:16:45] PHP Parse error:  syntax error, unexpected T_FOREACH, expecting T_VARIABLE or '$' in /home/datingan/public_html/crownsms/send_bkmessge.php on line 20
+[06-Oct-2009 00:17:38] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/datingan/public_html/crownsms/send_bkmessge.php on line 24
+[06-Oct-2009 01:54:07] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/datingan/public_html/crownsms/schedule_bulk_messge.php on line 42
+[06-Oct-2009 01:54:59] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/datingan/public_html/crownsms/schedule_bulk_messge.php on line 42
+[07-Oct-2009 02:16:25] PHP Fatal error:  Call to a member function get_var() on a non-object in /home/datingan/public_html/crownsms/send_bulkmessge.php on line 3
+[07-Oct-2009 02:17:52] PHP Parse error:  syntax error, unexpected T_ECHO in /home/datingan/public_html/crownsms/send_bulkmessge.php on line 47
+[09-Oct-2009 00:22:12] PHP Parse error:  syntax error, unexpected '=' in /home/datingan/public_html/crownsms/sms.class.php on line 40
+[09-Oct-2009 05:25:45] PHP Warning:  ereg_replace() [<a href='function.ereg-replace'>function.ereg-replace</a>]: REG_BADRPT in /home/datingan/public_html/crownsms/sms.class.php on line 29
+[09-Oct-2009 05:25:45] PHP Warning:  ereg_replace() [<a href='function.ereg-replace'>function.ereg-replace</a>]: REG_BADRPT in /home/datingan/public_html/crownsms/sms.class.php on line 36
+[09-Oct-2009 05:29:01] PHP Warning:  ereg_replace() [<a href='function.ereg-replace'>function.ereg-replace</a>]: REG_BADRPT in /home/datingan/public_html/crownsms/sms.class.php on line 29
+[09-Oct-2009 05:29:01] PHP Warning:  ereg_replace() [<a href='function.ereg-replace'>function.ereg-replace</a>]: REG_BADRPT in /home/datingan/public_html/crownsms/sms.class.php on line 36
+[11-Oct-2009 23:19:00] PHP Warning:  ereg_replace() [<a href='function.ereg-replace'>function.ereg-replace</a>]: REG_BADRPT in /home/datingan/public_html/crownsms/sms.class.php on line 29
+[11-Oct-2009 23:19:00] PHP Warning:  ereg_replace() [<a href='function.ereg-replace'>function.ereg-replace</a>]: REG_BADRPT in /home/datingan/public_html/crownsms/sms.class.php on line 36
+[11-Oct-2009 23:22:35] PHP Warning:  ereg_replace() [<a href='function.ereg-replace'>function.ereg-replace</a>]: REG_BADRPT in /home/datingan/public_html/crownsms/sms.class.php on line 29
+[11-Oct-2009 23:22:35] PHP Warning:  ereg_replace() [<a href='function.ereg-replace'>function.ereg-replace</a>]: REG_BADRPT in /home/datingan/public_html/crownsms/sms.class.php on line 36
+[12-Oct-2009 01:14:36] PHP Warning:  ereg_replace() [<a href='function.ereg-replace'>function.ereg-replace</a>]: REG_BADRPT in /home/datingan/public_html/crownsms/sms.class.php on line 29
+[12-Oct-2009 01:14:36] PHP Warning:  ereg_replace() [<a href='function.ereg-replace'>function.ereg-replace</a>]: REG_BADRPT in /home/datingan/public_html/crownsms/sms.class.php on line 36
+[17-Oct-2009 00:19:30] PHP Parse error:  syntax error, unexpected ';' in /home/datingan/public_html/crownsms/newpost.php on line 2
+[17-Oct-2009 00:25:11] PHP Warning:  preg_replace() [<a href='function.preg-replace'>function.preg-replace</a>]: Delimiter must not be alphanumeric or backslash in /home/datingan/public_html/crownsms/newpost.php on line 2
+[17-Oct-2009 00:52:52] PHP Parse error:  syntax error, unexpected T_STRING in /home/datingan/public_html/crownsms/newpost.php on line 4
+[17-Dec-2009 01:47:30] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/datingan/public_html/crownsms/admin/ez_sql.php on line 95
+[17-Dec-2009 01:47:30] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/datingan/public_html/crownsms/admin/ez_sql.php on line 95
+[17-Dec-2009 01:47:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/datingan/public_html/crownsms/admin/ez_sql.php:72) in /home/datingan/public_html/crownsms/save_contact.php on line 15
+[26-Dec-2009 17:21:42] PHP Parse error:  syntax error, unexpected ',' in /home/datingan/public_html/crownsms/index.php on line 4
+[26-Dec-2009 17:21:55] PHP Parse error:  syntax error, unexpected ',' in /home/datingan/public_html/crownsms/index.php on line 4
+[26-Dec-2009 17:22:22] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/datingan/public_html/crownsms/index.php on line 4
+[30-Dec-2009 12:38:22] PHP Warning:  Invalid argument supplied for foreach() in /home/datingan/public_html/crownsms/groups_sms.php on line 6
+[01-Jan-2010 06:17:19] PHP Warning:  Invalid argument supplied for foreach() in /home/datingan/public_html/crownsms/delete_smsq.php on line 6
+[01-Jan-2010 06:17:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/datingan/public_html/crownsms/delete_smsq.php:6) in /home/datingan/public_html/crownsms/delete_smsq.php on line 19
+[01-Jan-2010 07:22:56] PHP Warning:  Invalid argument supplied for foreach() in /home/datingan/public_html/crownsms/contacts_sms.php on line 7
+[01-Jan-2010 07:23:06] PHP Warning:  Invalid argument supplied for foreach() in /home/datingan/public_html/crownsms/contacts_sms.php on line 7
+[01-Jan-2010 07:23:11] PHP Warning:  Invalid argument supplied for foreach() in /home/datingan/public_html/crownsms/contacts_sms.php on line 7
+[01-Jan-2010 07:23:57] PHP Warning:  Invalid argument supplied for foreach() in /home/datingan/public_html/crownsms/contacts_sms.php on line 7
+[08-Jan-2010 10:01:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/datingan/public_html/crownsms/admin/ez_sql.php:72) in /home/datingan/public_html/crownsms/save_contact.php on line 15
+[08-Jan-2010 10:01:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/datingan/public_html/crownsms/admin/ez_sql.php:72) in /home/datingan/public_html/crownsms/save_contact.php on line 15
+[08-Jan-2010 10:01:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/datingan/public_html/crownsms/admin/ez_sql.php:72) in /home/datingan/public_html/crownsms/save_contact.php on line 15
+[16-Jan-2010 21:53:17] PHP Warning:  Invalid argument supplied for foreach() in /home/datingan/public_html/crownsms/contacts_sms.php on line 7

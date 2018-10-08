@@ -1,0 +1,13 @@
+/**
+ * @package   Kinetic Template - RocketTheme
+ * @version   1.5.1 February 4, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* Module Variations */
+h2.title {padding-top: 2px;margin-bottom: 18px;}
+.ribbon1 h2.title, .ribbon2 h2.title, .ribbon3 h2.title, .ribbon4 h2.title, .ribbon5 h2.title, .ribbon6 h2.title, .ribbon7 h2.title, .ribbon8 h2.title {padding: 11px 29px 15px 28px;}
+.rt-joomla .rt-article-title {padding: 11px 29px 15px 28px;}
+.box1 h2.title, .box2 h2.title, .box3 h2.title, .box4 h2.title, .box5 h2.title, .box6 h2.title, .box7 h2.title, .box8 h2.title {padding: 12px 10px 8px 10px;}
