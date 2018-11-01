@@ -15,6 +15,7 @@ class sendsms
 		// routesms cpanel http://121.241.242.116/websms/ict
 		//http://121.241.242.116:8080/sendsms?username=ct-smsglob&password=bolgsms!&type=0&dlr=0&destination=00923336581680&source=00923336581680&message=Hello
 		//create sms api 
+		echo($api->apilink);
 		$this->msg_url=$api->apilink."?username=".$api->username."&password=".$api->password;
 		//$this->msg_url=$api->apilink."?username=".$api->username."&password=test";
 		
