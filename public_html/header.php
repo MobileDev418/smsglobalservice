@@ -144,72 +144,76 @@ window.addEvent('domready', function() {new GantryPill('#rt-submenu2', {duration
                     </div>
                 </div>
             </div>
-			<div class="header-shadow">&nbsp;</div>
+			<?php if($_SESSION['cus_login']=='yes' || $_SESSION['cus_activated']=='yes'): ?>
+				<div class="header-shadow">&nbsp;</div>
+			<?php endif;?>
         </section>
-		<div class="sub_menu_title" style="text-align:right">
-			<!--h2 class="title">User Menu</h2-->
-			<ul class="menu_items">
-				<li style="margin:0 10px" class="item9 <?php
-					if($menu==9)
-						echo "active";
-					else
-						echo "parent";
-					 ?>" ><a class="orphan item" href="send_sms.php"><span>Send SMS</span></a>
-				</li>
-				<li class="item10 <?php
-					if($menu==10)
-						echo "active";
-					else
-						echo "parent";
-					 ?>" ><a class="orphan item" href="sms_history.php"><span>Delivery Report</em></span></a>
-				</li>
-				<li class="item11 <?php
-					if($menu==11)
-						echo "active";
-					else
-						echo "parent";
-					 ?>" ><a class="orphan item" href="sms_q.php"><span>SMS in Queue</em></span></a>
-				</li>	
-				<li class="item12 <?php
-					if($menu==4)
-						echo "active";
-					else
-						echo "parent";
-					 ?>" ><a class="orphan item" href="buynow.php"><span>Purchase SMS</span></a>
-				</li>
-				<li class="item13 <?php
-					if($menu==13)
-						echo "active";
-					else
-						echo "parent";
-					 ?>" ><a class="orphan item" href="groups.php"><span>Groups</em></span></a>
-				</li>
-				<li class="item14 <?php
-					if($menu==14)
-						echo "active";
-					else
-						echo "parent";
-					 ?>" ><a class="orphan item" href="contacts.php"><span>Contacts</em></span></a>
-				</li>
-				<li class="item15 <?php
-					if($menu==15)
-						echo "active";
-					else
-						echo "parent";
-					 ?>" ><a class="orphan item" href="profile.php"><span>My Profile</em></span></a>
-				</li>	
-				<li class="item16 <?php
-					if($menu==16)
-						echo "active";
-					else
-						echo "parent";
-					 ?>" ><a class="orphan item" href="change_password.php"><span>Change Password</em></span></a>
-				</li>		
-				<li class="item17" ><a class="orphan item" href="cus_signout.php" onclick="return confirm('Are you sure to Log out?')"><span>Log Out</span></a></li>
- 
- 
-			</ul>
-		</div>
+		<?php if($_SESSION['cus_login']=='yes' || $_SESSION['cus_activated']=='yes'): ?>
+			<div class="sub_menu_title" style="text-align:right">
+				<!--h2 class="title">User Menu</h2-->
+				<ul class="menu_items">
+					<li style="margin:0 10px" class="item9 <?php
+						if($menu==9)
+							echo "active";
+						else
+							echo "parent";
+						 ?>" ><a class="orphan item" href="send_sms.php"><span>Send SMS</span></a>
+					</li>
+					<li class="item10 <?php
+						if($menu==10)
+							echo "active";
+						else
+							echo "parent";
+						 ?>" ><a class="orphan item" href="sms_history.php"><span>Delivery Report</em></span></a>
+					</li>
+					<li class="item11 <?php
+						if($menu==11)
+							echo "active";
+						else
+							echo "parent";
+						 ?>" ><a class="orphan item" href="sms_q.php"><span>SMS in Queue</em></span></a>
+					</li>	
+					<li class="item12 <?php
+						if($menu==4)
+							echo "active";
+						else
+							echo "parent";
+						 ?>" ><a class="orphan item" href="buynow.php"><span>Purchase SMS</span></a>
+					</li>
+					<li class="item13 <?php
+						if($menu==13)
+							echo "active";
+						else
+							echo "parent";
+						 ?>" ><a class="orphan item" href="groups.php"><span>Groups</em></span></a>
+					</li>
+					<li class="item14 <?php
+						if($menu==14)
+							echo "active";
+						else
+							echo "parent";
+						 ?>" ><a class="orphan item" href="contacts.php"><span>Contacts</em></span></a>
+					</li>
+					<li class="item15 <?php
+						if($menu==15)
+							echo "active";
+						else
+							echo "parent";
+						 ?>" ><a class="orphan item" href="profile.php"><span>My Profile</em></span></a>
+					</li>	
+					<li class="item16 <?php
+						if($menu==16)
+							echo "active";
+						else
+							echo "parent";
+						 ?>" ><a class="orphan item" href="change_password.php"><span>Change Password</em></span></a>
+					</li>		
+					<li class="item17" ><a class="orphan item" href="cus_signout.php" onclick="return confirm('Are you sure to Log out?')"><span>Log Out</span></a></li>
+	 
+	 
+				</ul>
+			</div>
+		<?php endif;?>
         <div class="mobile-menu"></div>
         <section id="nav-section" class="section">
             <div class="container">
