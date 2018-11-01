@@ -9,6 +9,9 @@ session_start();
 	//Form to display single sms Form
 	include_once "header.php";
 
+	include_once "ez_sql.php";
+	$query = "SELECT * FROM sender WHERE customer_id='" . $_SESSION['cus_id'] . "'";
+	$senders = $db->get_results($query);
 ?>
 
 <script type="text/javascript" src="js/msglength.js" ></script>	
@@ -21,7 +24,7 @@ session_start();
 
     <form name="form1" method="post" action="sms.php" onsubmit="return valid_singleSms()">
 
-    <input name="sender" type="hidden" id="sender" value="<?php echo $_SESSION['cus_senderid']; ?>"  />
+    <!--input name="sender" type="hidden" id="sender" value="<?php echo $_SESSION['cus_senderid']; ?>"  /-->
 
     <div class="formborder">
 
@@ -78,6 +81,22 @@ session_start();
             </select></td>
 
         </tr>
+
+		<tr>
+			<td align="right">Sender`s ID</td>
+			<td align="left">
+				<select name="sender">
+					<option value="Propertypoa">Propertypoa</option>
+				<?php
+					for ( $i = 0; $i < count($senders); $i++ )
+					{
+						$sender = $senders[$i];
+						echo "<option value='" . $sender->name . "'>" . $sender->name . "</option>";
+					}
+				?>
+				</select>
+			</td>
+		</tr>
 
         <tr></tr>
 
